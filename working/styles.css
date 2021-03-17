@@ -1,7 +1,125 @@
+/* Global */
+@font-face {
+	font-family: AvenirStd;
+	src: url('assets/fonts/AvenirStd.otf');
+}
+
+@font-face {
+	font-family: AvenirLight;
+	src: url('assets/fonts/AvenirLight.otf');
+}
+
+@font-face {
+	font-family: AvenirBlack;
+	src: url('assets/fonts/AvenirBlack.otf');
+}
+
 html, html::before, html::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-color: white;
-  color: black;  
+  color: black;
+	font-family: AvenirStd, sans-serif;
+}
+
+/* Header */
+
+header {
+	height: 2rem;
+	width: 97%;
+	position: fixed;
+	z-index: 5;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 1.5rem;
+	background-color: white;
+}
+
+logo {
+	height: 32px;
+	display: flex;
+	align-items: center;
+}
+
+logo > p {
+	font-size: 1.25rem
+}
+
+logo > img {
+	width: 2rem;
+}
+
+.cobold {
+	color: black;
+	font-weight: bold;
+}
+
+.greyed {
+	color: grey;
+}
+
+nav > ul {
+	list-style-type: none;
+	display: flex;
+}
+
+li {
+	margin-left: 1rem;
+}
+
+
+/* Main Content */
+main {
+	position: relative;
+	top: 4rem;
+	left: 0;	
+}
+
+/* Section 1: Learn Something */
+#learn {
+	background-color: lightgray;
+	padding: 2rem 1.5rem;
+	display: flex;	
+	align-items: center;	
+}
+
+#learn > img {
+	width: 60%;
+	flex-basis: 60%;
+}
+
+text {
+	display: flex;
+	flex-direction: column;
+	min-width: 25%;
+	max-width: 25%;
+	flex-grow: 0;
+	flex-shrink: 0;
+	margin: 1.5rem;
+}
+
+h1 {
+	font-family: AvenirBlack;
+	font-weight: normal;
+	font-size: 2rem;
+	margin: 0;
+}
+
+h2 {
+	font-size: 1.25rem;
+}
+
+button {
+	text-align: center;
+	justify-self: center;
+	padding: .5rem;
+	background-color: dimgrey;
+	color: white;
+	font-family: AvenirStd;
+	font-size: 1rem;
+	margin-top: .5rem
 }
