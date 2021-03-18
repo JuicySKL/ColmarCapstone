@@ -7,7 +7,7 @@
     <title>Colmar Academy</title>
     <meta name="description" content="Codecademy Capstone Project: Colmar Academy Website">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&family=Raleway:wght@300;400;700&family=Lato&family=Palanquin&family=Nunito+Sans&family=Paytone+One&display=swap">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&family=Raleway:wght@300;400;700&display=swap">
     <link rel="stylesheet" href="./styles.css">
     <link rel="shortcut icon" href="images/ic-logo.svg">
   </head>	
@@ -29,15 +29,51 @@
 		</header>
 	<!-- Main Content -->
 	<main>
-		<!-- Learn Something New -->
-		<section id="learn">
-			<img src="assets/images/banner.jpg">
-			<text>
+		<!-- Banner / Learn Something New -->
+		<section id="banner">
+			<img src="assets/images/banner.jpg" alt="overhead close-up of people studying at a picnic table">
+			<text class="bannertxt">
 				<h1>Learn something new everyday</h1>
-				<h2>Outdoor Journaling + Dictation For Dumbs will do you "write"!</h2>
+				<h2>"Though it be in deep sadness and pain, in cold or heat... gasping after breath... I will go on! Now! Open the Gate!"</h2>
 				<button>Start here</button>
-			</text>
-			
+			</text>			
+		</section>
+		<!-- Information / Keep Practicing -->
+		<section id="information">
+			<div class="infoleft">
+				<img src="assets/images/information-main.jpg" alt="man reading a book outside">
+				<text class="blurb">
+					<h1>It doesn't hurt to keep practicing</h1>
+					<q>Over his friend, Enkidu, Gilgamesh cried bitterly, roaming the wilderness. "I am going to die!--am I not like Enkidu?! Deep sadness penetrates my core, I fear death, and now roam the wilderness-- I will set out to the region of Utanapishtim, son of Ubartutu, and will go with utmost dispatch!"</q>
+					<p>Gilgamesh, Sr. Strategist at Hiring.com</p>
+				</text>
+			</div>
+			<div class="inforight">
+				<div class="infocard">
+					<img src="assets/images/information-orientation.jpg">
+					<text class="infotxt">
+						<h2>Orientation Date</h2>
+						<p>Tue 10/11 &amp; Wed 10/12: 8am-3pm</p>
+						<a href="#">Read more</a>
+					</text>
+				</div>
+				<div class="infocard">
+					<img src="assets/images/information-campus.jpg">
+					<text class="infotxt">
+						<h2>Our Campus</h2>
+						<p>Find which campus is close by you</p>
+						<a href="#">Read more</a>
+					</text>
+				</div>
+				<div class="infocard">
+					<img src="assets/images/information-guest-lecture.jpg">
+					<text class="infotxt">
+						<h2>Our guest lecture</h2>
+						<p>Join a keynote with Oliver Sack about music in medical treatment</p>
+						<a href="#">Read more</a>
+					</text>
+				</div>
+			</div>
 		</section>
   </main>		
  	</body>
