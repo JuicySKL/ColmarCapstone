@@ -187,3 +187,37 @@ button {
 .infocard:nth-of-type(3) {
 	background-color: lightgray;
 }
+
+/* Section 3: Courses / Start Learning */ 
+#courses {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	background-color: lightgray;
+}
+
+h1 {
+	margin: 2rem 0;
+}
+
+.coursebox {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 	
+}
+
+.coursecard {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	background-color: white;
+	margin: 0 1rem 2rem ;
+	max-width: 25%;	
+}
+
+.coursedesc {
+	padding: 1rem;
+	padding-bottom: 0;
+}
