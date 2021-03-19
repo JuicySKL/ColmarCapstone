@@ -20,7 +20,7 @@ html, html::before, html::after {
   box-sizing: border-box;
   background-color: white;
   color: black;
-	font-family: AvenirStd, Raleway, Roboto, sans-serif;
+	font-family: AvenirStd, Raleway, Roboto, sans-serif;	
 }
 
 /* Header */
@@ -36,7 +36,7 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	padding: 1rem 1.5rem;
-	background-color: white;
+	background-color: white;	
 }
 
 logo {
@@ -62,7 +62,7 @@ logo > img {
 	color: grey;
 }
 
-nav > ul {
+ul {
 	list-style-type: none;
 	display: flex;
 }
@@ -194,7 +194,7 @@ button {
 	justify-content: center;
 	flex-direction: column;
 	text-align: center;
-	background-color: lightgray;
+	background-color: gainsboro;
 }
 
 #courses > h1 {
@@ -273,7 +273,7 @@ button {
 }
 
 .thesiscard:nth-of-type(1) {
-	background-color: lightgrey;
+	background-color: gainsboro;
 }
 
 .thesistxt {
@@ -285,4 +285,16 @@ button {
 video {
 	max-width: 100%;
 	border: none;
+}
+
+/* Footer */
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px gainsboro solid;
+	font-size: .75rem;
+	margin-top: 2rem;
+	padding: .5rem 1.5rem 0;
+	color: darkgrey;
 }
