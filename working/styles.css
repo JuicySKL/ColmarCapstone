@@ -14,13 +14,17 @@
 	src: url('assets/fonts/AvenirBlack.otf');
 }
 
-html, html::before, html::after {
+html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-color: white;
   color: black;
 	font-family: AvenirStd, Raleway, Roboto, sans-serif;	
+}
+
+body, section, footer {
+	max-width: 1600px;
 }
 
 /* Header */
@@ -36,7 +40,8 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	padding: 1rem 1.5rem;
-	background-color: white;	
+	background-color: white;
+	max-width: 1580px;
 }
 
 logo {
@@ -88,8 +93,7 @@ main {
 }
 
 #banner > img {
-	min-width: 60%;
-	flex-basis: 60%;
+	max-width: 60%;	
 }
 
 .bannertxt {
@@ -156,27 +160,25 @@ button {
 .inforight {
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
-	height: 100%;
-	min-width: 40%;
+	align-items: flex-start;	
+	max-width: 40%;
 }
 
 .infocard {
-	display: flex;	
-	align-items: center;
-	width: 100%;
+	display: flex;
+	flex-grow: 0;
+	align-items: center;		
 	padding: 2rem 1rem;
 }
 
 .infocard > img {
-	width: 35%;
-	height: auto;
+	width: 35%;	
 }
 
 .infotxt {
 	width: 65%;
 	margin-left: 2rem;
-	padding-right: 9rem;
+	padding-right: 5rem;	
 }
 
 .infotxt > a {
@@ -257,7 +259,7 @@ button {
 	flex-direction: column;
 	align-items: flex-start;
 	padding-top: 2rem;
-	min-width: 40%;
+	max-width: 40%;
 }
 
 .thesiscard {
